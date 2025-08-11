@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay Shekate</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4fd7cbf4ca.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1><span class="namme">AK.</span>SHEKATE</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+               <!-- <li><a href="#Education">Education</a></li>--> 
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="home">
+        <div class="header-text">
+            <p><span class="animated-text"></span></p>
+            <h1>Hi, I am <span>Akshay</span> <br> from India</h1>
+            <div class="buttons">
+                <a href="mailto:shekateakshay01@gmail.com" target="_blank">Contact Me</a>
+                <a href="https://drive.google.com/file/d/1jd45xio8i-COolFsewkXRwuMYZpkW03I/view?usp=sharing" target="_blank">My Resume</a>
+            </div>
+        </div>
+        <div class="welocme-me">
+            <img src="Image/welocme me.png" alt="">
+        </div>
+        </div>
+    </div>
+
+
+</div>
+
+<!-- /*-------------------------------about-----------*/ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Image/about.png" class="img2">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I’m a passionate and  results-driven Data Engineer with hands-on experience in designing and building scalable data pipelines
+                     that transform raw data into trusted, analytics-ready insights.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experiance')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul class="skillls">
+                        <div class="skill-box">
+                            <div class="skill-circle">
+                                <img src="Image/aws.svg" alt="">
+                            </div>
+                            <p>AWS</p>
+                        </div>
+                        <div class="skill-box">
+                            <div class="skill-circle">
+                                <img src="Image/Snowflake.png" alt="">
+                            </div>
+                            <p>Snowflake</p>
+                        </div>
+                        <div class="skill-box">
+                            <div class="skill-circle">
+                                <img src="Image/Qlik.png" alt="">
+                            </div>
+                            <p>Qlik</p>
+                        </div>
+                        <div class="skill-box">
+                            <div class="skill-circle">
+                                <img src="Image/python.png" alt="">
+                            </div>
+                            <p>Python</p>
+                        </div>
+                        <div class="skill-box">
+                            <div class="skill-circle">
+                                <img src="Image/sql.png" alt="">
+                            </div>
+                            <p>SQL</p>
+                        </div>
+                        <div class="skill-box">
+                            <div class="skill-circle">
+                                <img src="Image/html.png" alt="">
+                            </div>
+                            <p>HTML</p>
+                        </div>
+                        <div class="skill-box">
+                            <div class="skill-circle">
+                                <img src="Image/css.png" alt="">
+                            </div>
+                            <p>CSS</p>
+                        </div>
+                        <div class="skill-box">
+                            <div class="skill-circle">
+                                <img src="Image/javascript.png" alt="">
+                            </div>
+                            <p>Javascript</p>
+                        </div>
+                        <div class="skill-box">
+                            <div class="skill-circle">
+                                <img src="Image/C++.png" alt="">
+                            </div>
+                            <p>C++</p>
+                        </div>
+                       
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experiance">
+                    <ul class="exp">
+                        <div class="experiance">
+                            <img src="Image/piramal.png" class="pimage" alt="">
+                            <div class="content">
+                            <h2><span>Piramal Pharma Ltd.</span></h2>
+                            <h4>Data Engineer     |   July, 2024 - Present</h4>
+                            
+                        </div>
+                        </div>
+                        <ul>
+                                <li>Designed and developed ETL pipelines to ingest data from databases, APIs, flat files, and SFTP servers. Utilized AWS Glue for data extraction and loading into Amazon S3, and orchestrated workflows using AWS MWAA.</li>
+                                <li>Transformed and loaded data into Snowflake using SQL scripts, stored procedures, and native Snowflake functions. Followed a structured multi-layer architecture (Landing → Staging → PRS) to support various analytics and reporting use cases.</li>
+                                <li>Led the migration of dashboards from Qlik Sense to Qlik Cloud, redesigning data connections, validating outputs, and collaborating with BI teams and business users. Built Qlik Cloud dashboards, managed access, configured task chaining and scheduling, and implemented automation using Qlik Automation.</li>
+                            </ul>
+                       
+                     
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <div class="education">
+                        <div class="ed be">
+                        <div class="edd">
+                            <div class="div1"> <h3>Don Bosco Institute of Technology</h3>
+                            <h4>Bachelor of Engineering in Computer Engineering | <span>CGPA: 9.25</span></h4></div>
+                            <div class="div2">
+                                <H4>Mumbai, MH</H4>
+                                <H4>2020-2024</H4>
+                            </div>
+                        </div>
+                        <p> Coursework: Algorithms and Data Structures, Data Science, Big Data Analytics, Object-Oriented Programming, Natural Language Processing, Machine Learning, Artificial Intelligence</p>
+                        </div>
+                        
+                        <div class=" ed edd hsc">
+                            <div class="div1"> <h3>New English School & Jr. College Murbad</h3>
+                            <h4>HSC (Science) | <span>Percentage: 86.7%</span> </h4></div>
+                            <div class="div2">
+                                <H4>Murbad, MH</H4>
+                                <H4>2019-2020</H4>
+                            </div>
+                        </div>
+                         <div class=" ed edd ssc">
+                            <div class="div1"> <h3>Sidhhagad Vidyalay Dongarnhave</h3>
+                            <h4>SSC  | <span>Percentage: 89.4%</span></h4></div>
+                            <div class="div2">
+                                <H4>Murbad, MH</H4>
+                                <H4>2017-2018</H4>
+                            </div>
+                        </div>
+                        
+    
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--------------------- projects------------------------>
+<div id="project">
+     <div class="container">
+        <h1 class="sub-title">Projects</h1> 
+        <div class="project-list">
+            <div class="pcont1">
+            <img src="Image/Track Titans.jpg" alt="" class="im3 first">
+            
+            <h2>Track Titans</h2>
+            <p>Introducing the ultimate car game that tests your driving skills and speed against the clock. Get ready to hit the accelerator and conquer the circuit in this pulse-pounding race. With two challenging maps and three distinct cars to choose from, this game is packed with endless hours of adrenaline-fueled fun.</p>
+            <h4></h4>
+            <ul>
+                <li>UNITY</li>
+                <LI>C#</LI>
+                <LI>UI/UX</LI>
+            </ul>
+            <div class="layer">
+                <a href="https://play.google.com/store/apps/details?id=com.com.Teknack.TheTrackTitans.TheTrackTitans&pcampaignid=web_share" target="_blank">view</a>
+            </div>
+            </div>
+            <div class="pcont1">
+            <img src="Image/movie.jpg" alt="" class="im3">
+            <h2>Movie Rec. System</h2>
+            <p>The Movie Recommendation System is a machine learning-based application that provides personalized movie recommendations to users. It utilizes collaborative filtering techniques to analyze user preferences and similarities among movies to generate accurate and relevant recommendations.</p>
+              <h4></h4>
+            <ul>
+                <li>PYTHON</li>
+                <LI>JUPYTER</LI>
+                <LI>ML</LI>
+            </ul>
+             <div class="layer">
+                <a href="https://github.com/AkshayShekate/MoviesRecommender" target="_blank">view</a>
+            </div>
+            </div>
+               <div class="pcont1">
+            <img src="Image/Train Brain.jpg" alt="" class="im3 first">
+            
+            <h2>Train Brain</h2>
+            <p>Train Brain is a great board game that will improve your strategic and tactical thinking.
+
+This game is very similar to chess and is an excellent board logic game that can boost your brainpower and cognitive thinking. The game is played on an 8×8 chessboard with two players. Each player starts with 16 pieces</p>
+            <h4></h4>
+            <ul>
+                <li>UNITY</li>
+                <LI>C#</LI>
+                <LI>UI/UX</LI>
+            </ul>
+            <div class="layer">
+                <a href="https://play.google.com/store/apps/details?id=com.Teknack.TrainBrain&pcampaignid=web_share" target="_blank">view</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!---------------------contact us------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="ctable1">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p> <i class="fa-solid fa-envelope"></i> shekateakshay01@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> +91 9527165591</p>
+                <p> <i class="fa-solid fa-location-dot"></i> Mumbai, Maharashtra, India</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/akshayshekate/" target="_blank"><i class="fa-brands fa-square-linkedin"></i></a>
+                    <a href="https://github.com/AkshayShekate" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.youtube.com/@ak.shekate" target="_blank"><i class="fa-brands fa-square-youtube"></i></a>
+                    <a href=""></a>
+                </div>
+
+            </div>
+            <div class="ctable2">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  placeholder="Your Message"></textarea>
+                    <button type="submit" class="button">Submit</button>
+                </form>
+
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="copyright">
+        <h4>Akshay Shekate</h4>
+        <p>Turning logic into language and ideas into impact — one line of code at a time.</p>
+        <hr>
+        <p>© 2025 Akshay Shekate. All Rights Reserved.</p>
+    </div>
+    
+    
+</div>
+
+
+
+
+
+<!---------------------Javascript------------------------>
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+      const roles = ["Software Engineer","Data Engineer", "UI Developer", " UI/UX Designer"];
+  let index = 0;
+  const span = document.querySelector('.animated-text');
+
+  function typeNextRole() {
+    span.classList.remove('animated-text'); // Reset animation
+    void span.offsetWidth; // Trigger reflow to restart animation
+    span.classList.add('animated-text');
+    span.textContent = roles[index];
+    index = (index + 1) % roles.length;
+  }
+
+  typeNextRole(); // Initial
+  setInterval(typeNextRole, 3000); // Change every 3s
+</script>
+<script>
+    var sidemen=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemen.style.right="0";
+    }
+    function closemenu(){
+        sidemen.style.right="-200px";
+    }
+</script>
+
+<!-------contact form to google----->
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxi-44BcJemoyPYms8BYiXKJ3vowy9pQLwO2PRaDuQ9s7-MZpkxgV2pEeF8NIWVzNZdoQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {msg.innerHTML="Message Sent Successfully!"      
+        setTimeout(function(){
+            msg.innerHTML=""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
+  
